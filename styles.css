@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navigation {
+    background: linear-gradient(90deg, #000000, #ac3528);
+    color: white;
+    text-align: center;
+    padding-block: 10px;
+  }
+  nav {
+    padding-block: 20px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+    position: sticky;
+    top: 0;
+  }
+  nav > h5 {
+    display: inline-block;
+    margin-inline: 20px;
+  }
+  nav > input {
+    width: 40%;
+    border: none;
+    outline: none;
+  }
+  nav > span {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 2px;
+  }
+  .description {
+    padding: 100px 100px;
+    color: white;
+    font-size: larger;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./main-header-img.jpg");
+  }
+  .description > header {
+    width: 680px;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .shoe-types {
+    padding: 10px 40px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .jordan-types {
+    padding: 1%;
+    background-color: rgba(0, 0, 0, 20%);
+    margin-block: 10px;
+    color: rgba(0, 0, 0, 80%);
+  }
+  .shoe-name {
+    width: 120px;
+    height: 150px;
+    padding: 1px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: inline-block;
+  }
+  .last-sect {
+    background: linear-gradient(90deg,#353333, #000000);
+  }
+  .details {
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  .about-jordan{
+    width: 90%;
+    height: 75%;
+    padding: 20px;
+    margin: 5% auto;
+    box-shadow: 0px 0px 20px gray;
+    background: linear-gradient(90deg, #000000, #db3f2e);
+  }
+  .des {
+    max-width: 450px;
+    color: white;
+  }
+  .des > h1 {
+    font-size:x-large;
+    margin-bottom: 20px;
+  }
+  .des > p {
+    font-size: large;
+    margin-bottom: 40px;
+  }
+  .jordan12 {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    right: 130px;
+    top: 130px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 8px white;
+  }
+  .jordan12:hover {
+    right: 150px;
+    top: 130px;
+    width: 370px;
+    height: 370px;
+  }
